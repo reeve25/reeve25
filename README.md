@@ -9,7 +9,7 @@ Incoming Analyst, Deloitte Cyber (2027).
 - **[civic-eval](https://github.com/reeve25/civic-eval)**: an evaluation harness for government-services AI assistants. It scores answers against cited state law and tests prompt injection, PII leakage, over-refusal, and cost per model.
 - **Contributing to [NVIDIA garak](https://github.com/NVIDIA/garak)**, the open-source LLM vulnerability scanner:
   - [#2258](https://github.com/NVIDIA/garak/pull/2258): the safety report scored a detector that evaluated nothing as a total failure ([#2251](https://github.com/NVIDIA/garak/issues/2251)).
-  - [#2259](https://github.com/NVIDIA/garak/issues/2259): three prompt-injection probes ran nearly every prompt with another prompt's generation settings.
+  - [#2260](https://github.com/NVIDIA/garak/pull/2260): three prompt-injection probes ran nearly every prompt with another prompt's generation settings ([#2259](https://github.com/NVIDIA/garak/issues/2259)).
 
 ### Projects
 
