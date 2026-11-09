@@ -7,9 +7,18 @@ Incoming Analyst, Deloitte Cyber (2027).
 ### Now
 
 - **[civic-eval](https://github.com/reeve25/civic-eval)**: an evaluation harness for government-services AI assistants. It scores answers against cited state law and tests prompt injection, PII leakage, over-refusal, and cost per model.
-- **Contributing to [NVIDIA garak](https://github.com/NVIDIA/garak)**, the open-source LLM vulnerability scanner:
-  - [#2258](https://github.com/NVIDIA/garak/pull/2258): the safety report scored a detector that evaluated nothing as a total failure ([#2251](https://github.com/NVIDIA/garak/issues/2251)).
-  - [#2260](https://github.com/NVIDIA/garak/pull/2260): three prompt-injection probes ran nearly every prompt with another prompt's generation settings ([#2259](https://github.com/NVIDIA/garak/issues/2259)).
+- **Contributing upstream** to the AI security and evaluation tools I use; the table below is the running list.
+
+### Upstream contributions
+
+<!-- contributions-start -->
+| Project | What it fixed | Status |
+|---|---|---|
+| [NVIDIA/garak](https://github.com/NVIDIA/garak), LLM vulnerability scanner | Three prompt-injection probes sent 255 of 256 prompts with another prompt's generation settings; fix with regression tests. [#2260](https://github.com/NVIDIA/garak/pull/2260), issue [#2259](https://github.com/NVIDIA/garak/issues/2259) | merged 2026-10-08 |
+| [NVIDIA/garak](https://github.com/NVIDIA/garak) | The report digest scored a detector that evaluated nothing as a total failure; skip the eval record instead. [#2258](https://github.com/NVIDIA/garak/pull/2258), issue [#2251](https://github.com/NVIDIA/garak/issues/2251) | open |
+
+Full list: [upstream PRs](https://github.com/search?q=is%3Apr+author%3Areeve25+-user%3Areeve25&type=pullrequests) · [upstream issues](https://github.com/search?q=is%3Aissue+author%3Areeve25+-user%3Areeve25&type=issues)
+<!-- contributions-end -->
 
 ### Projects
 
